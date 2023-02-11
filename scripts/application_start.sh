@@ -1,7 +1,7 @@
 #!/bin/bash
-sudo chmode -R 777 /home/ec2-user/security-app
-cd /home/ec2-user/security-app/src
+cd /home/ec2-user/security-app
 npm start
-
-#add npm and node to directory
-export NVM_DIR="$HOME/.nvm"
+#pm2 start npm --name "covidapp" -- start
+#pm2 startup
+#pm2 save
+#pm2 restart all
