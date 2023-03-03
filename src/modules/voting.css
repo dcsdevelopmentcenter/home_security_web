@@ -1,0 +1,128 @@
+
+    .container {
+      flex: 1;
+      background-color: '#F5FCFF';
+      border-width: 1;
+      border-color: '#12344';
+      display: contents;
+    }
+
+    .scrollViewContainer {
+      flex-direction: 'row';
+      flex: 2;
+      width: '100%';
+      justify-content: 'space-between';
+      padding-left: '2%';
+      padding-right: '2%';
+      padding-bottom: '15%';
+      border-width: 1;
+      border-color: 'red';
+    }
+
+    .dropdown1BtnStyle {
+      width: '48%';
+      height: 50;
+      background-color: '#FFF';
+      border-radius: 8;
+      border-width: 1;
+      border-color: '#444';
+    }
+    .dropdown1BtnTxtStyle {
+        color: '#444'; 
+        text-align: 'left';
+    }
+    .dropdown1DropdownStyle {
+        background-color: '#EFEFEF'
+    }
+    
+    .dropdown1RowStyle {
+        background-color: '#EFEFEF'; 
+        border-bottom-color: '#C5C5C5';
+    }
+
+    .dropdown1RowTxtStyle {
+        color: '#444';
+        text-align: 'left'
+    }
+
+    .title {
+        font-size: 40;
+        color: '#fff';
+        margin-bottom: 20;
+        font-weight: 'bold';
+      }
+
+    .input {
+        background-color: '#fff';
+        padding: 10;
+        width: '80%';
+        margin-top: 15;
+        color: #95f08e;
+      }
+
+      .button {
+        padding: 10;
+        margin-top: 15;
+        color: #f10d0d;
+      }
+
+      .container2 {
+        flex: 1;
+        background-color: '##F5FCFF';
+        align-items: 'center';
+        justify-content: 'center';
+        float: left;
+        
+      }
+      .container2_title {
+        font-size: 40;
+        color: 'black';
+        margin-bottom: 20;
+        font-weight: 'bold';
+      }
+      .container2_input {
+        background-color: '#fff';
+        padding: 10;
+        width: '80%';
+        margin-top: 15;
+        color: '#000';
+        border-width: 1;
+        border-color: '#444';
+      }
+      .container2_button {
+        padding: 10;
+        width: '80%';
+        margin-top: 15;
+        color: '#000';
+      }
+      .container2_dropdown1BtnStyle {
+        width: '100%';
+        height: 50;
+        background-color: '#FFF';
+        border-radius: 8;
+        border-width: 1;
+        border-color: '#444';
+      }
+      .container2_scrollViewContainer {
+        flex-grow: 1;
+        width: '80%';
+        justify-content: 'space-evenly';
+        align-items: 'center';
+        paddingVertical: '10%';
+        padding-bottom: '20%';
+      }
+      .container2_dropdown1BtnTxtStyle {
+        color: '#444'; 
+        text-align: 'left';
+      }
+      .container2_dropdown1DropdownStyle {
+        background-color: '#EFEFEF';
+      }
+      .container2_dropdown1RowStyle {
+        background-color: '#EFEFEF';
+        border-bottom-color: '#C5C5C5';
+      }
+      .container2_dropdown1RowTxtStyle {
+        color: '#444';
+        text-align: 'left';
+      }
